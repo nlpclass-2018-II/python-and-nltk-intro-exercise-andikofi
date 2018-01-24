@@ -1,0 +1,18 @@
+7.
+
+-Token Lemmatization. What is the difference between token lemmatization and token stemming? Could you perform stemming
+ by using NLTK?
+
+Stemming algorithms work by cutting off the end of the word, and in some cases also the beginning while looking for the 
+root.
+
+Lemmatization on the other hand takes into consideration the morphological analysis of the words.
+
+The main difference is that a lemma is the base form of all its inflectional forms. However, the stem can be the same 
+for the inflectional forms of different lemmas, providing then noise to our search results.  
+
+yes we can perform stemming using nltk
+
+
+-Sentence tokenization, but try to use a sentence in Bahasa Indonesia. Do you notice any difference? Do you think the 
+tokenization function could run successfully on any language? yes 
